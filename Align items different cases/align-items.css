@@ -1,0 +1,40 @@
+.flex-container{
+    display: flex;
+    margin-bottom: 30pxpx;
+    box-sizing: content-box;
+    border: 2px solid black;
+    width:1008px;
+    background-color: burlywood;
+    height: 300px; 
+}
+.flex-item{
+    width:101px;
+    font-size: 16px;
+    font-weight: bolder;
+    border: 1px solid black;
+    background-color: bisque;
+}
+.stretch{
+    align-items: stretch;
+}
+.flex-start{
+    align-items: flex-start;
+}
+.flex-end{
+    align-items: flex-end;
+}
+.center{
+    align-items: center;
+}
+.Baseline{
+    align-items: baseline;
+}
+.fixed-height{
+    height: 151px;
+}
+.min-height{
+    min-height: 151px;
+}
+.max-height{
+    max-height: 151px;
+} 

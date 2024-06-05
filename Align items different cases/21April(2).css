@@ -1,0 +1,69 @@
+h1{
+    color: burlywood;
+    background-color: crimson;
+    text-align: center;
+}
+h3{
+    color: brown;
+    text-align: center;
+    border: 1px solid black;
+}
+.flex-container{
+    display: flex;
+    margin: 50px;
+    box-sizing: content-box;
+    border: 2px solid black;
+    width:1008px;
+    background-color: burlywood;
+    height: 100px; 
+    /* overflow: scroll;  */
+}
+.flex-item{
+    width:101px;
+    font-size: 16px;
+    font-weight: bolder;
+    border: 1px solid black;
+    background-color: bisque;
+}
+.stretch{
+    align-items: stretch;
+}
+.flex-start{
+    align-items: flex-start;
+}
+.flex-end{
+    align-items: flex-end;
+}
+.center{
+    align-items: center;
+}
+.Baseline{
+    align-items: baseline;
+}
+.fixed-height{
+    height: 151px;
+}
+.min-height{
+    min-height: 151px;
+}
+.max-height{
+    max-height: 151px;
+} 
+.fixed-height1{
+    height: 50px;
+}
+.min-height1{
+    min-height: 50px;
+}
+.max-height1{
+    max-height: 50px;
+} 
+.fixed-height2{
+    height: 100px;
+}
+.min-height2{
+    min-height: 100px;
+}
+.max-height2{
+    max-height: 100px;
+} 
