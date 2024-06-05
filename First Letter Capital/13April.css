@@ -1,0 +1,21 @@
+span {
+    font-weight: 900;
+    color: black;
+    font-size: 100px;
+    text-transform: uppercase;
+}
+p {
+    color: red;
+}
+p::first-letter{
+    font-weight:900;
+    color: black;
+    font-size: 100px;
+    text-transform: uppercase;
+}
+.red::after{
+    content: "This is after paragraph";
+}
+h1::before{
+    content: "Before heading      ";
+}
