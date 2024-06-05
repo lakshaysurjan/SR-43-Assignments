@@ -1,0 +1,23 @@
+h1{
+    text-align: center;
+    color: darkblue;
+}
+h2{
+    color: brown;
+}
+ #one{
+    overflow: visible;
+} 
+#two{
+    overflow: hidden;
+}
+#three{
+    overflow: scroll;
+}
+#four{
+    overflow: auto;
+}
+div{
+    height: 450px;
+    width: 1000px;
+}
