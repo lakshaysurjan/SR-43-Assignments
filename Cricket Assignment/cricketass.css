@@ -1,0 +1,25 @@
+body{
+    text-align: center;
+
+}
+h1{
+    text-align: center;
+    color: darkblue;
+}
+table{
+    border: 1px solid black;
+    /* margin: 1px */
+    background-color: cornsilk;
+    border-collapse: collapse;
+}
+img{
+    height: 200px;
+    width: 200px;
+}
+th,td{
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+    border-collapse: collapse;
+}
+
